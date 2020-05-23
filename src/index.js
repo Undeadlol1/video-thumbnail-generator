@@ -261,6 +261,7 @@ export default class ThumbnailGenerator {
       scale: 180,
       speedMultiplier: 4,
       deletePalette: true,
+      size: this.size,
     };
     const conf = _.assignIn(defaultOpts, opts);
     const inputOptions = [];
